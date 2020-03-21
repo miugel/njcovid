@@ -158,7 +158,7 @@ const App = () => {
 	const [error, setError] = useState([]);
 
 	useEffect(() => {
-		axios.get(`https://www.googleapis.com/customsearch/v1?key=${process.env.REACT_APP_API_KEY}&cx=006689534815398166742:yurca9jsngp&q=new+jersey+coronavirus`)
+		axios.get(`https://www.googleapis.com/customsearch/v1?key=AIzaSyAF1K_C4WCkYeYCc8CZwxymVcwAF5bYxYc&cx=006689534815398166742:yurca9jsngp&q=new+jersey+coronavirus`)
 			.then(response => setResults(response.data.items))
 			.catch(error => {
 				setError('There was an error');
