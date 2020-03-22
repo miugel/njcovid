@@ -273,13 +273,13 @@ const App = () => {
 				<section className='statistics'>
 					<div className='statistic'>
 						<h2><i className="fas fa-biohazard"></i>Total Confirmed Cases</h2>
-						<h2>890 cases</h2>
-						<p>Up <b>148</b> from yesterday</p>
+						<h2>1327 cases</h2>
+						<p>Up <b>437</b> from yesterday</p>
 					</div>
 					<div className='statistic'>
 						<h2><i className="fas fa-skull-crossbones"></i>Total Deaths</h2>
-						<h2>11 deaths</h2>
-						<p>Up <b>2</b> from yesterday</p>
+						<h2>16 deaths</h2>
+						<p>Up <b>5</b> from yesterday</p>
 					</div>
 					<div className='statistic'>
 						<h2><i className="fas fa-heartbeat"></i>Total Recovered</h2>
@@ -301,7 +301,7 @@ const App = () => {
 									</div>
 								</a>
 							))
-						) : <div className='spinning-wheel'></div>}
+						) : <p>The Google API has hit its limit 😕</p>}
 					</div>
 
 					<div className='twitter'>
@@ -312,25 +312,25 @@ const App = () => {
 					<div className='resources'>
 						<h2>Cases by County</h2>
 						<ul style={{ listStylePosition: 'inside', marginBottom: '4px' }}>
-							<li>Bergen: 249</li>
-							<li>Middlesex: 76</li>
-							<li>Essex: 73</li>
-							<li>Hudson: 66</li>
-							<li>Monmouth: 53</li>
-							<li>Ocean: 49</li>
-							<li>Passaic: 49</li>
-							<li>Union: 43</li>
-							<li>Morris: 35</li>
-							<li>Somerset: 28</li>
-							<li>Mercer: 22</li>
-							<li>Burlington: 17</li>
-							<li>Camden: 11</li>
-							<li>Hunterdon: 11</li>
-							<li>Atlantic: 3</li>
-							<li>Gloucester: 3</li>
-							<li>Sussex: 3</li>
-							<li>Warren: 3</li>
-							<li>Cape May: 1</li>
+							<li>Bergen: 362</li>
+							<li>Middlesex: 116</li>
+							<li>Essex: 107</li>
+							<li>Hudson: 97</li>
+							<li>Monmouth: 92</li>
+							<li>Union: 81</li>
+							<li>Passaic: 67</li>
+							<li>Morris: 64</li>
+							<li>Ocean: 62</li>
+							<li>Somerset: 34</li>
+							<li>Mercer: 30</li>
+							<li>Burlington: 21</li>
+							<li>Camden: 15</li>
+							<li>Hunterdon: 14</li>
+							<li>Gloucester: 6</li>
+							<li>Sussex: 6</li>
+							<li>Warren: 5</li>
+							<li>Atlantic: 4</li>
+							<li>Cape May: 2</li>
 							<li>Cumberland: 1</li>
 						</ul>
 						<p style={{ marginBottom: '64px', fontSize: '0.875rem' }}><i>Source: nj.gov</i></p>
