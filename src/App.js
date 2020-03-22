@@ -266,7 +266,7 @@ const App = () => {
 			<header>
 				<h1>Coronavirus in New Jersey</h1>
 				<p className='handle'>Built by <a href='https://miguelnicolas.dev' target='_blank' rel='noopener noreferrer'>Miguel</a></p>
-				<p className='last-updated'>Last updated March 20, 2020</p>
+				<p className='last-updated'>Last updated March 21, 2020</p>
 			</header>
 
 			<body>
