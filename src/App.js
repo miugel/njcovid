@@ -229,9 +229,9 @@ const AppContainer = styled.div`
 		}
 	}
 
-	@media(min-width: 1120px) {
+	@media(min-width: 1024px) {
 		body {
-			width: 1024px;
+			width: 972.8px;
 
 			.statistics {
 				flex-direction: row;
