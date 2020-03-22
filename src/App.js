@@ -147,6 +147,11 @@ const AppContainer = styled.div`
                         transform: rotate(360deg);
                     }
 				}
+
+				.limit {
+					color: #ffffff;
+					text-align: center;
+				}
 				
 				::-webkit-scrollbar {
 					width: 8px;
@@ -301,7 +306,7 @@ const App = () => {
 									</div>
 								</a>
 							))
-						) : <p>The Google API has hit its limit 😕</p>}
+						) : <p className='limit'>The Google API has hit its daily limit 😕</p>}
 					</div>
 
 					<div className='twitter'>
