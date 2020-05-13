@@ -235,7 +235,7 @@ const AppContainer = styled.div`
 
 			.statistics {
 				flex-direction: row;
-				justify-content: space-between;
+				justify-content: space-evenly;
 			}
 
 			.information {
@@ -271,25 +271,20 @@ const App = () => {
 			<header>
 				<h1>Coronavirus in New Jersey</h1>
 				<p className='handle'>Built by <a href='https://miguelnicolas.dev' target='_blank' rel='noopener noreferrer'>Miguel</a></p>
-				<p className='last-updated'>Last updated March 21, 2020</p>
+				<p className='last-updated'>Last updated May 13, 2020</p>
 			</header>
 
 			<body>
 				<section className='statistics'>
 					<div className='statistic'>
 						<h2><i className="fas fa-biohazard"></i>Total Confirmed Cases</h2>
-						<h2>1327 cases</h2>
-						<p>Up <b>437</b> from yesterday</p>
+						<h2>141,560 cases</h2>
+						<p>Up <b>817</b> from yesterday</p>
 					</div>
 					<div className='statistic'>
 						<h2><i className="fas fa-skull-crossbones"></i>Total Deaths</h2>
-						<h2>16 deaths</h2>
-						<p>Up <b>5</b> from yesterday</p>
-					</div>
-					<div className='statistic'>
-						<h2><i className="fas fa-heartbeat"></i>Total Recovered</h2>
-						<h2>0 recovered</h2>
-						<p>Up <b>0</b> from yesterday</p>
+						<h2>9,702 deaths</h2>
+						<p>Up <b>194</b> from yesterday</p>
 					</div>
 				</section>
 
@@ -317,26 +312,27 @@ const App = () => {
 					<div className='resources'>
 						<h2>Cases by County</h2>
 						<ul style={{ listStylePosition: 'inside', marginBottom: '4px' }}>
-							<li>Bergen: 362</li>
-							<li>Middlesex: 116</li>
-							<li>Essex: 107</li>
-							<li>Hudson: 97</li>
-							<li>Monmouth: 92</li>
-							<li>Union: 81</li>
-							<li>Passaic: 67</li>
-							<li>Morris: 64</li>
-							<li>Ocean: 62</li>
-							<li>Somerset: 34</li>
-							<li>Mercer: 30</li>
-							<li>Burlington: 21</li>
-							<li>Camden: 15</li>
-							<li>Hunterdon: 14</li>
-							<li>Gloucester: 6</li>
-							<li>Sussex: 6</li>
-							<li>Warren: 5</li>
-							<li>Atlantic: 4</li>
-							<li>Cape May: 2</li>
-							<li>Cumberland: 1</li>
+							<li>Bergen: 17,150</li>
+							<li>Hudson: 17,035</li>
+							<li>Essex: 15,749</li>
+							<li>Passaic: 14,757</li>
+							<li>Union: 14,306</li>
+							<li>Middlesex: 14,241</li>
+							<li>Ocean: 7,688</li>
+							<li>Monmouth: 7,090</li>
+							<li>Morris: 5,926</li>
+							<li>Mercer: 5,499</li>
+							<li>Camden: 5,099</li>
+							<li>Somerset: 4,126</li>
+							<li>Burlington: 3,726</li>
+							<li>Gloucester: 1,728</li>
+							<li>Atlantic: 1,584</li>
+							<li>Cumberland: 1,447</li>
+							<li>Warren: 1,066</li>
+							<li>Sussex: 1,041</li>
+							<li>Hunterdon: 732</li>
+							<li>Cape May: 479</li>
+							<li>Salem: 428</li>
 						</ul>
 						<p style={{ marginBottom: '64px', fontSize: '0.875rem' }}><i>Source: nj.gov</i></p>
 
